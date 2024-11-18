@@ -1,0 +1,112 @@
+body {
+      margin: 0;
+      padding: 0;
+      background-color: #04121d;
+      color:#fff;
+}
+.header {
+      width: 100vw;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+}
+#pro_logo {
+      width: 100px;
+      padding-left: 40px;
+}
+#logo_text {
+      width: auto;
+      font-size: 80px;
+      font-family: Courier;
+      color: #04121d;
+}
+nav {
+      display: flex;
+      justify-content: flex-end;
+      font-size: 20px;
+      padding-right: 40px;
+}
+nav li:hover {
+      cursor: pointer;
+      background-color: #04121d;
+      color: #fff;
+}
+ul {
+      display: flex;
+      gap: 50px;
+} 
+li > a {
+      text-decoration: none;
+      color: #04121d;
+      list-style: none;
+      font-family: monospace;
+}
+.main_info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      padding: 0;
+      height: auto;
+      overflow: hidden;
+}
+#bot_name {
+      font-size: 50px;
+}
+#bot_caption {
+      font-size: 20px;
+}
+.info_text {
+      margin-left: 20px;
+}
+.high_text:hover {
+      transition: ease 1s;
+      color: #04121d;
+      background-color: #fff;
+}
+#probot_img {
+      width: 500px;
+      height: 700px;
+      margin: 0;
+      padding: 0;
+      border-radius: 50%; 
+      clip-path: inset(30% 25% 30% 25%);
+}
+.side_info {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      flex-wrap: wrap;
+      align-items: center;
+}
+.about_info, .contact_info {
+      border: 3px #fff solid;
+      width: 350px;
+      height: 150px;
+      margin: 0 50px 50px 50px;
+      padding: 0 5px;
+}
+.side_title {
+      font-size: 30px;
+      margin: 0;
+      text-align: center;
+}
+.side_description {
+      font-size: 20px;
+      margin: 0;
+      text-align: center;
+      line-height: 30px;
+}
+.soc_info {
+      display: flex;
+}
+a.socials   {
+      color: #fff;
+      width: 100%;
+      font-size: 50px;
+      display: block;
+      text-align: center;
+}
